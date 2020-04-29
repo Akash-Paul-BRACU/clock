@@ -1,0 +1,48 @@
+@media only screen and (max-width:414px) {
+
+    .clock .sec, .sc{
+        width: 23rem;
+        height: 14rem;
+    }
+    .clock{
+        height: 20rem;
+        width: 20rem;
+    }
+    .sc::before{
+        height: 10rem;
+    }
+    .clock .hour, 
+.hr{
+    width: 16rem;
+    height: 12rem;
+    
+}
+    .hr::before{
+        height: 6rem;
+        
+    }   
+    .clock .min, 
+.mn{
+    width: 19rem;
+    height: 14rem;
+}
+
+    
+}
+
+@media only screen and (max-width:320px) {
+.clock {
+    height: 19rem;
+    width: 19rem;
+}
+.clock .min, 
+.mn{
+    width: 19rem;
+    height: 12rem;
+}
+    .mn::before{
+        height: 7.5rem;
+
+}
+}
+    
